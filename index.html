@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rukabao</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- ヘッダー -->
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">るか</h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#about">ブランドについて</a></li>
+                    <li><a href="#products">製品</a></li>
+                    <li><a href="#gallery">ギャラリー</a></li>
+                    <li><a href="#contact">お問い合わせ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ヒーローセクション -->
+    <section class="hero">
+        <div class="container">
+            <h2>るかの世界へようこそ</h2>
+            <p>高級感と洗練を追求した製品をお届けします。</p>
+            <a href="#products" class="btn">製品を見る</a>
+        </div>
+    </section>
+
+    <!-- ブランドについて -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>ブランドについて</h2>
+            <p>るかは、最高品質の素材と卓越したデザインで知られるラグジュアリーブランドです。</p>
+        </div>
+    </section>
+
+    <!-- 製品 -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2>製品ラインアップ</h2>
+            <div class="product-list">
+                <div class="product-item">
+                    <img src="product1.jpg" alt="製品1">
+                    <h3>製品1</h3>
+                    <p>高級な素材で作られた逸品。</p>
+                </div>
+                <div class="product-item">
+                    <img src="product2.jpg" alt="製品2">
+                    <h3>製品2</h3>
+                    <p>美と機能性の融合。</p>
+                </div>
+                <!-- 他の製品を追加可能 -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ギャラリー -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>ギャラリー</h2>
+            <div class="gallery-grid">
+                <img src="gallery1.jpg" alt="ギャラリー画像1">
+                <img src="gallery2.jpg" alt="ギャラリー画像2">
+                <img src="gallery3.jpg" alt="ギャラリー画像3">
+                <!-- 他の画像を追加可能 -->
+            </div>
+        </div>
+    </section>
+
+    <!-- お問い合わせ -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>お問い合わせ</h2>
+            <form action="#" method="post">
+                <label for="name">お名前</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">メールアドレス</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">メッセージ</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit" class="btn">送信する</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- フッター -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 るか. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
