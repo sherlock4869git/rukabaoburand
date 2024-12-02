@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>rukabao - ブランド公式サイト</title>
+    <title>るか - ブランド公式サイト</title>
     <style>
         /* ベーススタイル */
         body {
@@ -36,7 +36,13 @@
         nav a:hover {
             text-decoration: underline;
         }
-
+        /* ロゴのスタイル */
+        .logo {
+            width: 150px; /* ロゴの幅 */
+            height: auto; /* アスペクト比維持 */
+            display: block;
+            margin: 0 auto 10px;
+        }
         /* メインコンテンツ */
         main {
             padding: 50px 20px;
@@ -45,21 +51,20 @@
         section {
             margin: 20px 0;
             padding: 20px;
-            background: #111; /* 深い黒 */
+            background: #111;
             border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(255, 215, 0, 0.3); /* ゴールドの影 */
+            box-shadow: 0 4px 8px rgba(255, 215, 0, 0.3);
         }
         h2 {
             font-size: 2rem;
-            color: #f9d342; /* ゴールド */
+            color: #f9d342;
             margin-bottom: 15px;
         }
         p {
             font-size: 1.2rem;
             line-height: 1.8;
-            color: #f9d342; /* ゴールド */
+            color: #f9d342;
         }
-
         /* フッター */
         footer {
             background: #000;
@@ -70,13 +75,14 @@
         footer p {
             margin: 0;
             font-size: 0.9rem;
-            color: #f9d342; /* ゴールド */
+            color: #f9d342;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>るか</h1>
+        <img src="ruka.png" alt="るかロゴ" class="logo">
+        <h1>rukabao</h1>
         <nav>
             <a href="#about">ブランドについて</a>
             <a href="#products">製品</a>
@@ -86,7 +92,7 @@
     <main>
         <section id="about">
             <h2>ブランドについて</h2>
-            <p>「るか」は洗練されたデザインと高品質を追求するブランドです。特別な体験を提供します。</p>
+            <p>「るか」と「カヴァオ」の奇跡の融合。それはまるで神によるものです。</p>
         </section>
         <section id="products">
             <h2>製品</h2>
@@ -98,7 +104,8 @@
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 るか. All rights reserved.</p>
+        <p>&copy; 2024 るか.カヴァオ. All rights reserved.</p>
     </footer>
 </body>
 </html>
+
